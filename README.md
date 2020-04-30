@@ -4,7 +4,7 @@
 
 Containment Game is a non-profit project to play your favorite games directly in your browser with your friends during containment. Because approximately half of the human population is contained into their homes today, we need some way to entertain and keep in touch with friends.
 
-You can find an online running version of the app at [https://www.containment-ga.me](https://app.containment-ga.me).
+You can find an online running version of the app at [https://www.containment-ga.me](https://www.containment-ga.me).
 
 ## Getting started
 
