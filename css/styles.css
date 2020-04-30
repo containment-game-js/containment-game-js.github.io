@@ -110,6 +110,8 @@ p {
   padding: 1rem;
   box-shadow: 0px 2px 4px rgba(208, 180, 197, 0.24);
   position: relative;
+  text-decoration: none;
+  color: inherit;
 }
 
 .card h3 {
