@@ -12,13 +12,13 @@ const fr = {
       title: 'Behind the scene',
       team: "L'équipe",
       guillaume:
-        'Amazing fullstack and blockchain developer. ghivert on GitHub and everywhere else. Functional developer, he spend time tweaking CSS classes. Master of Languages-compiling-to-JavaScript and Clojure lover.',
+        'Développeur blockchain et fullstack incroyable. Développeur fonctionnel, il passe sont temps à tweaker des classes CSS. Grand maître des languages-compilant-vers-JavaScript et amoureux de Clojure.',
       arthur:
-        'Incredible fullstack and DevOps developer. arthurescriou on GitHub. He works a lot with servers and likes having dirty hands while talking to AWS directly. Lord of CI/CD and Vue.js & Dashboard lover.',
+        'Développer fullstack et DevOps de folie. Il murmure à l’oreille des serveurs et aime se salir les mains en parlant directement à AWS. Seigneur des CI/CD et amoureux de Vue.js et de dashboards.',
       maha:
-        'Awesome designer. You can find her on her website. She give birth to your craziest designers dreams. Figma magician and WebFlow overlord.',
+        'Designer exceptionnelle. Elle donne vie à vos rêves de designers les plus fous. Magicienne de Figma et suzeraine de WebFlow.',
       camille:
-        'Entrepreneur & beta tester. She helped us finding the good words for CodeNames and tried the software more than anyone else.',
+        "Entrepreneuse & bêta testeuse. Elle a aidé à trouver les bons mots pour Code Names et à essayer le logiciel plus que n'importe qui d'autres.",
       specialThanks: 'Remerciements spéciaux',
     },
   },
