@@ -1,0 +1,17 @@
+{
+  "name": "containment-game-js.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:containment-game-js/containment-game-js.github.io.git",
+  "author": "Guillaume Hivert <hivert.is.coming@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "servor . index.html 5000 --reload --browse"
+  },
+  "dependencies": {
+    "serve": "^11.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}

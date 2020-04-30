@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/spinner.css" />
+    <script type="module" src="/javascript/loading-items.js"></script>
+    <script type="module" src="/javascript/main.js"></script>
+    <title>Containment Game</title>
+  </head>
+  <body>
+    <loading-overlay id="overlay" class="center" active="true">
+      <loading-spinner></loading-spinner>
+    </loading-overlay>
+    <header>Containment Game</header>
+    <main>
+      <section class="pad">
+        <h1><i18n-t key="main.start.title"></i18n-t></h1>
+        <h2><i18n-t key="main.start.subtitle"></i18n-t></h2>
+        <p><i18n-t key="main.start.paragraph"></i18n-t></p>
+        <a
+          href="https://app.containment-ga.me"
+          class="button"
+          target="_blank"
+          rel="noopener noreferrer"
+          active
+        >
+          <i18n-t key="main.start.start"></i18n-t>
+        </a>
+        <a
+          class="button"
+          href="https://github.com/containment-game-js"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i18n-t key="main.start.help"></i18n-t>
+        </a>
+      </section>
+      <section class="pad">
+        <h1><i18n-t key="main.behind.title"></i18n-t></h1>
+        <h2><i18n-t key="main.behind.team"></i18n-t></h2>
+        <div class="col center">
+          <div class="row center card frame purple-frame">
+            <img
+              class="profile-picture"
+              src="/assets/guillaume.jpeg"
+              alt="Guillaume Profil"
+            />
+            <div class="col">
+              <h3>Guillaume Hivert</h3>
+              <p><i18n-t key="main.behind.guillaume"></i18n-t></p>
+            </div>
+          </div>
+          <div class="row center card frame blue-frame">
+            <div class="col">
+              <h3>Arthur Escriou</h3>
+              <p><i18n-t key="main.behind.arthur"></i18n-t></p>
+            </div>
+            <img
+              class="profile-picture"
+              src="/assets/arthur.jpeg"
+              alt="Arthur Profil"
+            />
+          </div>
+          <div class="row center card frame purple-frame">
+            <img
+              class="profile-picture"
+              src="/assets/maha.jpeg"
+              alt="Maha Profil"
+            />
+            <div class="col">
+              <h3>Maha El Aoufir</h3>
+              <p><i18n-t key="main.behind.maha"></i18n-t></p>
+            </div>
+          </div>
+          <h2 class="pad-top">
+            <i18n-t key="main.behind.specialThanks"></i18n-t>
+          </h2>
+          <div class="row center card frame blue-frame">
+            <div class="col">
+              <h3>Camille Laurent</h3>
+              <p><i18n-t key="main.behind.camille"></i18n-t></p>
+            </div>
+            <img
+              class="profile-picture"
+              src="/assets/camille.jpeg"
+              alt="Camille Profil"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
