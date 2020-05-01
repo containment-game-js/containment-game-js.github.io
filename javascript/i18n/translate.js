@@ -1,7 +1,9 @@
 class I18N {
   constructor({ dicts, locale }) {
+    const storedLocale = localStorage.getItem('locale')
     const [navigatorLocale] = (navigator.language || '').split('-')
-    const loc = locale || navigatorLocale || 'en'
+    const loc = locale || storedLocale || navigatorLocale || 'en'
+    localStorage.setItem('locale', loc)
     this._locale = loc
     this.dicts = dicts
     this.dict = dicts[loc]
@@ -12,6 +14,7 @@ class I18N {
   }
 
   set locale(newValue) {
+    localStorage.setItem('locale', newValue)
     this._locale = newValue
     this.dict = this.dicts[newValue]
   }
