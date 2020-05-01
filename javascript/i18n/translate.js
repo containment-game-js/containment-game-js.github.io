@@ -7,6 +7,10 @@ class I18N {
     this.dict = dicts[loc]
   }
 
+  get locale() {
+    return this._locale
+  }
+
   set locale(newValue) {
     this._locale = newValue
     this.dict = this.dicts[newValue]

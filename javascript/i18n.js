@@ -1,5 +1,6 @@
 import I18N from './i18n/translate.js'
 import Element from './i18n/custom-element.js'
+import LanguageSelector from './i18n/language-selector.js'
 
 function subscribe(func) {
   this.subscribed.add(func)
@@ -23,16 +24,18 @@ const updateInstance = instance => options => {
 const init = ({ elementName, ...options }) => {
   const value = new I18N(options)
   const subscribed = new Set()
-  const instance = {
+  const _instance = {
     value,
     subscribed,
     subscribe,
     unsubscribe,
     updateAll,
   }
+  const update = updateInstance(_instance)
+  const instance = { ..._instance, update }
   customElements.define(elementName || 'i18n-t', Element(instance))
-  const update = updateInstance(instance)
-  return { update }
+  customElements.define('language-selector', LanguageSelector(instance))
+  return instance
 }
 
 export { init }

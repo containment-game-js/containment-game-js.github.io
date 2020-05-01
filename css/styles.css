@@ -64,6 +64,16 @@ header {
   top: 0px;
   z-index: 1;
   background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+language-selector {
+  margin: 12px;
+  font-size: 1.5rem;
+  position: relative;
+  cursor: pointer;
 }
 
 main {
