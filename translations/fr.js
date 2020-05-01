@@ -20,6 +20,8 @@ const fr = {
       camille:
         "Entrepreneuse & bêta testeuse. Elle a aidé à trouver les bons mots pour Code Names et à essayer le logiciel plus que n'importe qui d'autres.",
       specialThanks: 'Remerciements spéciaux',
+      friends: 'Et tous nos amis',
+      friendsDescription: 'Morgane, Louise, Constance, et tous ceux que nous oublions, qui nous ont aidé tant pour bêta-tester que pour nous soutenir dans notre interminable travail sur la plateforme !'
     },
   },
 }

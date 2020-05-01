@@ -20,6 +20,9 @@ const en = {
       camille:
         'Entrepreneur & beta tester. She helped us finding the good words for CodeNames and tried the software more than anyone else.',
       specialThanks: 'Special Thanks',
+      friends: 'And all our friends',
+      friendsDescription:
+        'Morgane, Louise, Constance, and all that we forgot, who helped us as much for beta-testing and to support us in our long-lasting work on the platform!',
     },
   },
 }

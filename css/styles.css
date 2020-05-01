@@ -177,3 +177,7 @@ p {
     order: -1;
   }
 }
+
+.thank-you {
+  border-radius: 6px;
+}
