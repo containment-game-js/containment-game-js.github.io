@@ -180,4 +180,6 @@ p {
 
 .thank-you {
   border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
 }
